@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+
+
+.contenedor{
+    width: 30%;
+    display: block;
+    float: left;
+    margin: 50px 25px;
+    border: 1px solid rgb(25, 58, 91);
+    border-radius: 20px;
+    height: 800px;
+}
+
+h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    background-color: rgb(234, 195, 103);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 2% 0;
+    color: rgb(25, 58, 91);
+    text-align: center;
+}
+
+#lista{
+    width: 90%;
+    background-color: antiquewhite;
+    padding-left: 5%;;
+}
+
+#form{
+    width: 80%;
+    margin: 50px 10%;
+}
+
+fieldset{
+    padding: 30px;
+}
+
+legend{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#producto, #categoria{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 100px;
+    border:0.2px solid rgb(197, 197, 197);
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: rgb(234, 195, 103);
+    border-radius: 10px;
+    border:0.2px solid rgb(197, 197, 197);
+}
+
+.listado{
+    text-align: left;
+    padding-left: 10%;
+    font-family: 'Indie flower', cursive;
+}
+
+.tachado{
+    text-decoration:line-through;
+}
+
+.listado input{
+    margin-right: 25px;
+}
+
+.listado label{
+    width: 300px;
+    display: inline-block;
+    border-bottom: 1px solid gray;
+}
+
+.listado button{
+    margin-left: 25px;
+}
+

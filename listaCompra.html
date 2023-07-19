@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi lista de la compra</title>
+    <link href="listaCompra.css" rel="stylesheet"/>
+    
+  </head>
+  <body>
+    <section id="form">
+        <fieldset>
+            <legend>Lista de la compra</legend>
+            <label for="producto">Producto</label><input type="text" id="producto" name="producto" onchange="activarBoton()"/>
+            <label for="categoria">Categoría</label>
+            <select name="categoria" id="categoria" onchange="activarBoton()">
+                <option value="0" selected>Elige una opción</option>
+                <option value="frutas">Frutas y verduras</option>
+                <option value="carnes">Carnes y pescados</option>
+                <option value="lacteos">Lácteos y cereales</option>
+              </select>
+              <button type="button" id="boton" onclick="crearItem()" disabled>+</button>
+        </fieldset>
+        
+    </section>
+    <section id="lista">
+        <div id="frutas" class="contenedor">
+            <h3>Frutas y verduras</h3>
+            <div class="listado"></div>
+        </div>
+        <div id="carnes" class="contenedor">
+            <h3>Carnes y pescados</h3>
+            <div class="listado"></div>
+        </div>
+        <div id="lacteos" class="contenedor">
+            <h3>Lácteos y cereales</h3>
+            <div class="listado"></div>
+        </div>
+    </section>
+    
+  </body>
+  <script src="listaCompra.js"></script>
+</html>
